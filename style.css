@@ -61,7 +61,41 @@
     width: 200px;
     color: #444;
     font-size: 40px;
+    margin-bottom: 30px;
   }
+  @media (max-width:1025px) {
+    #navbar a { 
+      font-size: 35px;
+    }
+    
+  }
+  @media (max-width:800px) {
+    #navbar a { 
+      font-size: 30px;
+    }
+    
+    
+  }
+  @media (max-width: 600px) {
+    #navbar a { 
+      font-size: 25px;
+    }
+    .res{
+      display: block;
+    }
+    
+  }
+  @media (max-width: 500px) {
+    #navbar a { 
+      font-size: 20px;
+    }
+    .res{
+      display: block;
+    }
+    
+  }
+
+
   
   #navbar a:hover {
     color: #c1b696;
