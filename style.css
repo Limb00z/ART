@@ -81,7 +81,13 @@
       font-size: 25px;
     }
     .res{
-      display: block;
+      display: inline-block; 
+
+    }
+
+    .res a{
+      margin-left: 20px;
+    
     }
     
   }
@@ -91,6 +97,11 @@
     }
     .res{
       display: block;
+      
+    }
+    .res a{
+      margin-left: 10px;
+    
     }
     
   }
